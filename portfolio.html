@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="conteiner header-wrapar">
+            <nav class="header-nav">
+                <a class="logo-link" href="index.html">Тра
+                    <span class="logo">фарети</span></a>
+                <ul class="site-nive list">
+                    <li><a href="./index.html" class="link">Minecraft</a></li>
+                    <li><a href="./portfolio.html" class="link current">Спорт</a></li>
+                    <li><a href="./kontact.html" class="link">Ігри</a></li>
+                </ul>
+            </nav>
+            <ul class="addres-head list">
+                <li class="adress-head__mail">
+                    <a href="mailto:info@devstudio.com" class="adress-head__link link">
+                        <svg class="icon adress-head__icon adress-head__icon--svg" width="16" height="12">
+                            <use xlink:href="./images/sprite.svg#icon-envelope"></use>
+                        </svg>2015a.d2018@.com
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section class="hero-section">
+            <div class="conteiner hero-section_conteiner">
+            </div>
+        </section>
+        <section class="help-section section">
+
+        </section>
+        <section class="action-photo section">
+            <div class="action-photo conteiner">
+                <ul class="action-photo_list list">
+                    <li>
+                        <img src="./images/Спорт/Баскетбол.jpg" alt="Пароль на клавіатурі" width="370">
+                        <h3 class="title">Баскетбол</h3>
+                        <a class="download-link" href="./images/Спорт/Баскетбол.jpg" download></a>
+                        <button class="order-button">Download</button>
+                    </li>
+                    <li>
+                        <img src="./images/Спорт/Бокс.jpg" alt="Синхронізація телефона" width="370">
+                        <h3 class="title">Бокс</h3>
+                        <a class="download-link" href="./images/Спорт/Бокс.jpg" download></a>
+                        <button class="order-button">Download</button>
+                    </li>
+                    <li>
+                        <img src="./images/Спорт/Боротьба.jpg" alt="Палітра на планшеті" width="370">
+                        <h3 class="title">Боротьба</h3>
+                        <a class="download-link" href="./images/Спорт/Боротьба.jpg" download></a>
+                        <button class="order-button">Download</button>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        </section>
+        <section class="action-photo section">
+            <div class="action-photo conteiner">
+                <ul class="action-photo_list list">
+                    <li>
+                        <img src="./images/Спорт/Гольф.jpg" alt="Пароль на клавіатурі" width="370">
+                        <h3 class="title">Гольф</h3>
+                        <a class="download-link" href="./images/Спорт/Гольф.jpg" download></a>
+                        <button class="order-button">Download</button>
+                    </li>
+                    <li>
+                        <img src="./images/Спорт/Гімнастика.jpg" alt="Синхронізація телефона" width="370">
+                        <h3 class="title">Гімнастика</h3>
+                        <a class="download-link" href="./images/Спорт/Гімнастика.jpg" download></a>
+                        <button class="order-button">Download</button>
+                    </li>
+                    <li>
+                        <img src="./images/Спорт/Плавання.jpg" alt="Палітра на планшеті" width="370">
+                        <h3 class="title">Плавання</h3>
+                        <a class="download-link" href="./images/Спорт/Плавання.jpg" download></a>
+                        <button class="order-button">Download</button>
+                    </li>
+                </ul>
+            </div>
+        </section>
+       
+        
+
+
+
+
+            <div class="modal-wrap is-hidden" data-modal>
+                <div class="modal">
+                    <p class="modal__discription">Залиште свої дані, ми вам передзвонимо</p>
+                    <button data-modal-close type="button" class="modal__close">
+                        <svg class="modal__cross" width="11" height="11">
+                            <use xlink:href="./images/sprite.svg#icon-cross"></use>
+                        </svg>
+                    </button>
+
+                    <form action="#" class="form">
+                        <div class="form-row">
+                            <label for="user_name" class="form-row__title">Ім'я</label>
+                            <div class="form-row__test">
+                                <input type="text" class="form-row__input" name="user_name" id="user_name" required
+                                    minlength="3" maxlength="20" />
+                                <svg class="form-row__svg icon" width="18" height="18">
+                                    <use xlink:href="./images/sprite.svg#icon-person"></use>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <label for="user_phone" class="form-row__title">Телефон</label>
+                            <div class="form-row__test">
+                                <input type="text" class="form-row__input" name="user_phone" id="user_phone" required
+                                    minlength="13" maxlength="13" />
+                                <svg class="form-row__svg icon" width="18" height="18">
+                                    <use xlink:href="./images/sprite.svg#icon-phone"></use>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <label for="user_mail" class="form-row__title">Пошта</label>
+                            <div class="form-row__test">
+                                <input type="email" class="form-row__input" name="user_mail" id="user_mail" required
+                                    minlength="3" maxlength="20" />
+                                <svg class="form-row__svg icon" width="18" height="18">
+                                    <use xlink:href="./images/sprite.svg#icon-email"></use>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <label for="user_text" class="form-row__title">Коментар</label>
+                            <div class="form-row__test">
+                                <textarea name="user_text" id="user_text" placeholder="Введіть текст" cols="30"
+                                    rows="10" required minlength="3" maxlength="999"
+                                    class="form-row__input form-story"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="privacy">
+                            <input class="privacy__input" type="checkbox" name="mail_send" id="mail_send" />
+                            <label class="privacy__label" for="mail_send">Погоджуюся з розсилкою та приймаю </label>
+                            <a class="privacy__link" href="#" target="_blank" rel="nooper noreferrer">Умови договору</a>
+                        </div>
+                        <button class="send-btn" type="submit">Відправити</button>
+                    </form>
+                </div>
+            </div>
+    </main>
+    <footer class="footer">
+        <div class="conteiner footer__conteiner">
+            <div class="contacts">
+                <a class="footer__logo logo" href="index.html">Тра<span>фарети</span></a>
+                <address>
+                    <ul class="contacts__adress">
+                        <li class="contacts-info list">
+                            <a href="2015a.d2018@.com" target="_blank" rel="noopener noreferrer"
+                                class="contacts-info__link link">2015a.d2018@.com</a>
+                        </li>
+
+                    </ul>
+                </address>
+            </div>
+            <ul class="site-niv list">
+                <li><a href="./index.html" class="link current">Minecraft</a></li>
+                <li><a href="./portfolio.html" class="link">Спорт</a></li>
+                <li><a href="./kontact.html" class="link">Ігри</a></li>
+            </ul>
+    </footer>
+    <script src="./js/modal.js">
+
+    </script>
+    <script>
+        // Select all buttons with the class 'order-button'
+        const buttons = document.querySelectorAll('.order-button');
+
+        buttons.forEach((button) => {
+            button.addEventListener('click', () => {
+                // Find the closest parent <li> element
+                const listItem = button.closest('li');
+
+                // Find the <img> and the corresponding <a> download link within the <li>
+                const img = listItem.querySelector('img');
+                const downloadLink = listItem.querySelector('.download-link');
+
+                // Set the download link's href to the image's src
+                downloadLink.href = img.src;
+
+                // Programmatically click the download link
+                downloadLink.click();
+            });
+        });
+    </script>
+</body>
+</html>
